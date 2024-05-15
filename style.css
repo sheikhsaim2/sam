@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+body {
+    height: 100vh;
+}
+.container {
+    height: 100vh;
+    background-size: cover;
+    background-image: url(back.jpg);
+}
+.header {
+    height: 5rem;
+    display: 100%;
+    background-color: rgb(20, 20, 20)transparent;
+}
+nav {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    color: #fff;
+}
+.left-section img {
+    width: 5rem;
+    cursor: pointer;
+}
+.right-section {
+    display: flex;
+    gap: rem;
+}
+.nav-links {
+    display: flex;
+    gap: 1rem;
+}
+.nav-links {
+    list-style:none ;
+    cursor: pointer;
+    font-size: 14px;
+}
+.btn-login {
+    background: transparent;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+.btn-register {
+    background-color: black;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+.lio {
+    color: red;
+}
+.hlo{
+    color: #fff;
+    margin: 60px;
+}
+.hire {
+    background: white;
+    color: #0c0c0c;
+    padding: 0.5rem 1rem;
+    width: 100px;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 14px;
+    font-weight: 600;
+}
